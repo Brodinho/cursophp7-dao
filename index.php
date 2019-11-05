@@ -4,10 +4,19 @@
 
 	$usuario = new Usuario();
 
-	$usuario->loadById(8);
-	$usuario->update("professor", "000000");
+	$usuario->loadById(7);
+
+	$usuario->delete();
 
 	echo $usuario;
+
+// Alterar um usuário
+//	$usuario = new Usuario();
+
+//	$usuario->loadById(8);
+//	$usuario->update("professor", "000000");
+
+//	echo $usuario;
 
 //	Criando um novo usuario	
 //	$aluno = new Usuario("aluno", "@lun0");
